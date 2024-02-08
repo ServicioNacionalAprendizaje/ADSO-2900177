@@ -4,3 +4,5 @@ Actividad 1: Leer e interiorizar github.
 Actividad 2: 
 * Revisar MER, MR y CRUD.
 * Lógica programación (Estructuras de datos y de control)
+
+Actividad 3: Firmar acta de vocero.
