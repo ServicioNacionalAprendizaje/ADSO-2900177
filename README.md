@@ -21,6 +21,10 @@
 1. Cuando solo se tiene acceso de visualización
 
 * Clonar el repositorio
+
+```git
+git clone https://github.com/ServicioNacionalAprendizaje/ADSO-2900177.git
+```
 ![Clonar repositorio](git/ClonarGIT.png)
 
 * Obtener los cambios del repositorio
