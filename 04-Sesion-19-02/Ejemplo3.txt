@@ -1,0 +1,47 @@
+La tienda de Pepito Perez, se esta realizando un descuento del 10% sobre el total
+de la compra. 
+
+* Se sabe que el kilo de manzanas cuesta 4600. 
+* Se desea saber cuando pagará como valor final un clinete. 
+* Se desea saber cuanto ahorra el cliente. 
+
+INICIO
+    //Definir varaibles
+    Definir cantidad como entero
+    Definir precioUnitario, valorTotalNeto, valorTotalBruto, descuento como real
+
+    // Inicializar varaibles
+    cantidad = 0;
+    precioUnitario = 0.0
+    valorTotalNeto = 0.0
+    valorTotalBruto = 0.0
+    descuento = 0.0
+
+    //Capturar datos
+    Escriba "Digite la cantidad a comprar: "
+    LEA cantidad
+
+    Escriba "Digite el precio unitario de las manzanas: "
+    LEA precioUnitario
+
+    //Proceso
+    valorTotalBruto = cantidad * precioUnitario
+    
+    // Usar algunas de las opciones.
+
+    descuento = valorTotalBruto* 0.1
+    valorTotalNeto = valorTotalBruto  - descuento
+
+    valorTotalNeto = valorTotalBruto - (valorTotalBruto * 1)
+    
+    valorTotalNeto = valorTotalBruto * 0.9
+
+
+    // Salida 
+    Escriba "El usuario debe pagar ",valorTotalNeto
+    Escriba "El usuario ahorro ",descuento
+
+
+
+FIN
+

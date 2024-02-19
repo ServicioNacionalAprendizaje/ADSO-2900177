@@ -1,0 +1,23 @@
+Se requiere saber si la persona puede entrar al bar o no. Para ello, 
+se determino, que si es mayor de edad, podrá, de lo contrario, 
+se muestra un mensaje es menor de edad. 
+
+INICIO
+    //Declarar varaibles
+    Definir edad como entero
+
+    // Inicializar varaibles.
+    edad = 0
+
+    // Capturar datos
+    ESCRIBA "Digite la edad de la persona: "
+    LEER edad
+
+    //Proceso
+
+    SI edad >=18 ENTOCES
+        ESCRIBA "Autorizado el ingreso"
+    SINO 
+        ESCRIBA "Persona menor de edad"
+    FIN SI        
+FIN

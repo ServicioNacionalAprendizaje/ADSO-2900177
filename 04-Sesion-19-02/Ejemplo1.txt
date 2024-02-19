@@ -1,0 +1,24 @@
+Contexto: 
+A = 20 * 3 / 4
+B = ((9*3)*(2^2) > 200) ==  T
+C = not(A)  && B
+
+INICIO 
+    //Declarar varaibles
+    Definir A como Real 
+    Definir B, C como Booleano
+
+    //Inicializar varaibles
+    A = 0.0
+    B = null
+    C = null
+    
+    // Asignar datos - realizar proceso
+    A = 20 * 3 / 4 != 20
+    B = ((9*3)*(2^2) > 200) ==  T
+    C = not(A)  && B
+
+    // Generar resultado
+    ESCRIBA C
+
+FIN
