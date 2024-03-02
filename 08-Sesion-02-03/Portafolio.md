@@ -7,19 +7,9 @@
         tecnica
             2024
                 marzo
-                    01-sesion-02-03 
-                        ****
-                        ****
-                        ****                 
-                    02-taller-05-03
-                    material-apoyo
-                    proyecto
-                abril
-                    proyecto                
-        salud-ocupacional
+                    01-sesion-02-03         
         fisica
+            01-sesion-02-03
         etica
-        ingles
-        educacion-fisica
-        emprendimiento
+            01-sesion-02-03
     ```
