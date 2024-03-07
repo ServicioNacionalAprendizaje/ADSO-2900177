@@ -1,0 +1,1 @@
+* Leer un real e imprimir si el número es par o impar.
