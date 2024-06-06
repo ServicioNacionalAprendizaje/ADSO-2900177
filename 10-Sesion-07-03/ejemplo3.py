@@ -1,13 +1,20 @@
-num = 0.0
-bandera = True
-while bandera == True:
-    try:
-        num = float(input("Introduce un número: "))
-        if num % 2 == 0:
-            print("El número es par")
-        else:
-            print("El número es impar")
-        bandera = False
+
+while True: 
+    try: 
+        numUno = float(input("Digite el primer numero: "))
+        numDos = float(input("Digite el segundo numero:"))
+
+        if numDos < 0 and numUno % 2 != 0:
+            if numUno > numDos:
+                print(numUno,",",numDos)
+            else: 
+                print(numDos,",",numUno)
+            break
+        else: 
+            if(numUno > numDos): 
+                print(numDos,",",numUno)
+            else: 
+                print(numUno,",",numDos)
+            break
     except:
-        print("no es un numero señor usuario, por favor ingrese un numero valido")
-        num = 0
+        print("Error, valor invalido")
